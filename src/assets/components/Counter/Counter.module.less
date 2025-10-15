@@ -1,0 +1,23 @@
+.age {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    span {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        p {
+            .tp2();
+            color: black;
+        }
+        .value {
+            color: @purple500;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .age span p {
+        .tp1();
+    }
+}

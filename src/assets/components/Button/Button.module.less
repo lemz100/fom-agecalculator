@@ -1,0 +1,31 @@
+.button {
+    background-color: @purple500;
+    border-radius: 216px;
+    border: none;
+    width: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}
+.button:hover, .button:active {
+    cursor: pointer;
+}
+.button:active {
+    background-color: black;
+}
+
+@media screen and (min-width: 768px) {
+    .button {
+        width: 96px;
+        height: 96px;
+        img {
+            width: 44px;
+            height: 44px;
+        }
+    }
+}

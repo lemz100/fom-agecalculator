@@ -1,0 +1,43 @@
+.textLabel {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.5rem;
+    .text {
+        text-transform: uppercase;
+        color: @grey500;
+        .tp6b();
+    }
+    .text.error {
+        color: @red400;
+    }
+}
+
+.input {
+    text-align: left;
+    width: 100%;
+    border: 1px solid @grey200;
+    .tp4();
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+.input::placeholder {
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+.input:active, .input {
+    caret-color: @purple500;
+}
+
+.input.error {
+    // add background color for tinted red effect to the button, etc.
+    border: 1px solid @red400;
+}
+
+@media screen and (min-width: 768px) {
+    .textLabel .text { .tp5b(); }
+    .input { 
+        .tp3(); 
+        padding: 0.5rem 1.5rem;
+    }
+}
