@@ -1,0 +1,48 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/** Removes browser default radio/checkbox styling - remove comment to use 
+input[type=radio], input[type=checkbox] {
+  appearance: none;        
+  -webkit-appearance: none;  
+  -moz-appearance: none;   
+}
+*/
+
+/** Removes odd yellow line - remove comment to use
+input:focus-visible {
+  outline: none;
+}
+*/
+
+/** Removes odd black line on keyboard focusing on buttons - uncomment to use. 
+.button:focus-visible {
+    outline: none;
+}
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+}
+
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  min-width: 320px;
+}
+
