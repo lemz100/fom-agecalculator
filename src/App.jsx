@@ -21,9 +21,9 @@ function App() {
     year: ''
   })
   const [age, setAge] = useState({
-    years: '',
-    months: '',
-    days: ''
+    years: '--',
+    months: '--',
+    days: '--'
   })
 
   function handleChange(e) {
